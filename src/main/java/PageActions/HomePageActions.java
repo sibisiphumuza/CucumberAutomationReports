@@ -9,10 +9,8 @@ public class HomePageActions {
  
     HomePageLocators homePageLocators = null;
      
-    public HomePageActions() {
-           
-        this.homePageLocators = new HomePageLocators();
-   
+    public HomePageActions() {           
+        this.homePageLocators = new HomePageLocators();   
         PageFactory.initElements(HelperClass.getDriver(),homePageLocators);
     }
    

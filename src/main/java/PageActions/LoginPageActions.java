@@ -38,13 +38,11 @@ public class LoginPageActions {
 	}
 
 	public void login(String email, String strPassword) {
-
+		
 		// Fill user name
 		this.setEmail(email);
-
 		// Fill password
 		this.setPassword(strPassword);
-
 		// Click Login button
 		this.clickLogin();
 
